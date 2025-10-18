@@ -8,7 +8,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
+// myArr.push(6)2
 // myArr.push(7, 8)
 // myArr.pop()
 
