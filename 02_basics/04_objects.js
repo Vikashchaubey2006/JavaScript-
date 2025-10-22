@@ -35,3 +35,23 @@ console.log(Object.entries(tinderUser)); //it gives the all entities in seprate-
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //  the object is present or not in boolean
 
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "Vikash Chaubey"
+}
+
+const {coursename: name} = course //  this is called de-structring (coursename: name) this will convert course name into the name we can de-structure any object into smaller one and when curly braces is used under paranthesis it means de-structuring
+console.log(name);
+
+// {
+//   "name": "vikash",
+//   "coursename": "js in hindi",
+//   "price":  "free"
+// }
+
+[
+  {},
+  {},
+  {}
+]  // some also API in this format
