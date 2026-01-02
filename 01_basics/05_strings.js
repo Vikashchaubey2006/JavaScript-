@@ -24,7 +24,7 @@ console.log(newString);
 
 const anotherString = gameName.slice(-5, 0);
 console.log(anotherString);
-// we can use negative values in slice but nit in substring when we gave negative it ignore it and consider it as 0
+// we can use negative values in slice but not in substring when we gave negative it ignore it and consider it as 0
 
 const newStringOne = "    Vikash         "
 console.log(newStringOne);
@@ -32,7 +32,7 @@ console.log(newStringOne.trim()); // it is used to remove the extra spaces from 
 
 const url = "https://vikashchaubey.com-about"
 console.log(url .replace('  ', '/'));
-// It will replace the first occurance of space comma bfreacket with whtever we want to replace
+// It will replace the first occurance of space comma bfreacket with whatever we want to replace
 
 console.log(url.includes('vikash chaubey'))
 // we can ask any thing it is present in the url or not

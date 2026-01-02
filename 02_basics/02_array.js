@@ -7,7 +7,7 @@ console.log(marvel_heros)
 console.log(marvel_heros[3][1])
 
 const allHeros = marvel_heros.concat(dc_heros)
-console.log(allHeros); // It is use d to merge the two arrays 
+console.log(allHeros); // It is used to merge the two arrays 
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 console.log(all_new_heros); // this is spread operator it also used to merge the two and more than two operator
