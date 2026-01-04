@@ -7,5 +7,6 @@ const newNums = myNumers
       .map((num) => num * 10) // this method is called chaining we can add multiple methods at a time
       .map( (num) => num + 1)  // this map function add the number after its tenth and add 1 
       .filter( (num) => num >= 40) // this function will print the value which is greater than 40
+      // we can add multiple methods like that
 
 console.log(newNums);
