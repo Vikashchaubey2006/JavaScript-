@@ -32,4 +32,4 @@ const userTwo = new User("Balajee", 11, false) // it will override on console on
 // when we use new user before the user it will remove the unwanted mesh like getter shetter etc when we dont in any function then it will generate unwanted mesh
 
 console.log(userOne);
-// console.log(userTwo)
+console.log(userTwo)
