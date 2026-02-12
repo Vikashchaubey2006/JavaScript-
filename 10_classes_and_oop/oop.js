@@ -26,9 +26,10 @@ function User(username, loginCount, isLoggedIn) {
   return this
 }
 
+
 const userOne = new User("Vikash", 10, true)  // when we use new before both the function and then print both the both will give the output
 const userTwo = new User("Balajee", 11, false) // it will override on console one
 // when we use new user before the user it will remove the unwanted mesh like getter shetter etc when we dont in any function then it will generate unwanted mesh
 
 console.log(userOne);
-console.log(userTwo)
+// console.log(userTwo)
