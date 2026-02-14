@@ -47,7 +47,7 @@ promiseFour
     console.log(user);
     return user.username;
   })
-  .then((username) => {  
+  .then((username) => {
     console.log(username);
   })
   .catch(function(error){
@@ -80,23 +80,11 @@ async function consumePromiseFive(){
 consumePromiseFive();
 
 
-// async function getAllUsers(){
-//   try {
-//     const response = await fetch('https://jsonplaceholder.typicode.com/users');
-//     const data = await response.json();  
-//     console.log(data);
-//   } catch (error) {
-//     console.log("E: ", error);
-//   }
-// }
-
-// getAllUsers();
-
 fetch('https://jsonplaceholder.typicode.com/users')
-.then((response) => {
-  return response.json()
-})
-.then((data) => {
-  console.log(data);
-})
-.catch((error) => console.log(error))
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => console.log(error));
