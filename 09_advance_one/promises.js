@@ -78,7 +78,7 @@ consumePromiseFive()
 
 // async function getAllUsers(){
 //     try {
-//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
+//         const response = await fetch('Your API url')
 
 //         const data = await response.json()
 //         console.log(data);
@@ -89,7 +89,7 @@ consumePromiseFive()
 
 //getAllUsers()
 
-// fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('Your API url')
 .then((response) => {
     return response.json()
 })
@@ -99,4 +99,4 @@ consumePromiseFive()
 .catch((error) => console.log(error))
 
 // promise.all
-// yes this is also available, kuch reading aap b kr
+// yes this is also available, kuch reading aap b kre
