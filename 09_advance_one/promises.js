@@ -89,14 +89,14 @@ consumePromiseFive()
 
 //getAllUsers()
 
-fetch('Your API url')
-.then((response) => {
-    return response.json()
-})
-.then((data) => {
-    console.log(data);
-})
-.catch((error) => console.log(error))
+// fetch('Your API url')
+// .then((response) => {
+//     return response.json()
+// })
+// .then((data) => {
+//     console.log(data);
+// })
+// .catch((error) => console.log(error))
 
 // promise.all
 // yes this is also available, kuch reading aap b kre
