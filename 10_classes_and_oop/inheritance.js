@@ -28,3 +28,5 @@ const masalaChai = new User("masalaChai")
 masalaChai.logMe()
 
 console.log(chai instanceof User);
+
+// super and static is important in class
