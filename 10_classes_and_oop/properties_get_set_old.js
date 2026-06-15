@@ -25,3 +25,5 @@ const chai = new User("vikas@gmail.com", "chai");
 
 console.log(chai.email);
 console.log(chai.password);
+
+// It will shown in old code base but this is also a property
