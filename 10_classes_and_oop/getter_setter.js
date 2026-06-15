@@ -25,3 +25,12 @@ class User {
 const vikash = new User("vikash@ai", "abc")
 console.log(vikash.password)
 console.log(vikash.email)
+
+// In JavaScript, getters and setters are special methods that let you control how an object's properties are read and written.
+
+//Getter
+// A getter runs when you access a property.
+
+// Setter
+
+// A setter runs when you assign a value to a property.
